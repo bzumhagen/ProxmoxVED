@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/bzumhagen/ProxmoxVED/test/misc/build.func)
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: Joerg Heinemann (heinemannj)
-# License: MIT | https://github.com/community-scripts/ProxmoxVED/raw/main/LICENSE
+# License: MIT | https://github.com/bzumhagen/ProxmoxVED/raw/test/LICENSE
 # Source: https://github.com/john30/ebusd
 
 APP="ebusd"
@@ -27,7 +27,7 @@ function update_script() {
     msg_error "No ${APP} Installation Found!"
     exit
   fi
-  
+
   msg_info "Updating ebusd"
   $STD apt update
   $STD apt upgrade -y ebusd

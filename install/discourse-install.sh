@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVED/raw/main/LICENSE
+# License: MIT | https://github.com/bzumhagen/ProxmoxVED/raw/test/LICENSE
 # Source: https://www.discourse.org/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -136,7 +136,7 @@ cat <<EOF >/etc/nginx/sites-available/discourse
 server {
   listen 80 default_server;
   server_name _;
-  
+
   client_max_body_size 100M;
   proxy_busy_buffers_size 512k;
   proxy_buffers 4 512k;

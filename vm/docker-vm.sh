@@ -2,15 +2,15 @@
 
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: thost96 (thost96) | Co-Author: michelroegl-brunner | Refactored: MickLesk
-# License: MIT | https://github.com/community-scripts/ProxmoxVED/raw/main/LICENSE
+# License: MIT | https://github.com/bzumhagen/ProxmoxVED/raw/test/LICENSE
 
 # ==============================================================================
 # Docker VM - Creates a Docker-ready Virtual Machine
 # ==============================================================================
 
-source <(curl -fsSL https://git.community-scripts.org/community-scripts/ProxmoxVED/raw/branch/main/misc/api.func) 2>/dev/null
-source <(curl -fsSL https://git.community-scripts.org/community-scripts/ProxmoxVED/raw/branch/main/misc/vm-core.func) 2>/dev/null
-source <(curl -fsSL https://git.community-scripts.org/community-scripts/ProxmoxVED/raw/branch/main/misc/cloud-init.func) 2>/dev/null || true
+source <(curl -fsSL https://raw.githubusercontent.com/bzumhagen/ProxmoxVED/test/misc/api.func) 2>/dev/null
+source <(curl -fsSL https://raw.githubusercontent.com/bzumhagen/ProxmoxVED/test/misc/vm-core.func) 2>/dev/null
+source <(curl -fsSL https://raw.githubusercontent.com/bzumhagen/ProxmoxVED/test/misc/cloud-init.func) 2>/dev/null || true
 load_functions
 
 # ==============================================================================

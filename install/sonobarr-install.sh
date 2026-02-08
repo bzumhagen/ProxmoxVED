@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 community-scripts ORG
 # Author: GoldenSpringness
-# License: MIT | https://github.com/community-scripts/ProxmoxVED/raw/main/LICENSE
+# License: MIT | https://github.com/bzumhagen/ProxmoxVED/raw/test/LICENSE
 # Source: https://github.com/Dodelidoo-Labs/sonobarr
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
